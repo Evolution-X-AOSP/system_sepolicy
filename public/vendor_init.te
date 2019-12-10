@@ -251,6 +251,9 @@ get_prop(vendor_init, theme_prop)
 
 get_prop(vendor_init, ota_prop)
 
+# Allow /proc/sys/kernel/sched*
+allow vendor_init proc_sched:file w_file_perms;
+
 ###
 ### neverallow rules
 ###
