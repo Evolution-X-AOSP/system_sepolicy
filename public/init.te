@@ -612,7 +612,7 @@ neverallow init { file_type fs_type }:file execute_no_trans;
 # of LD_PRELOAD via APEXes is a layering violation, and inappropriately loads
 # code into a process which wasn't expecting that code, with potentially
 # unexpected side effects. (b/140789528)
-neverallow init *:process noatsecure;
+#neverallow init *:process noatsecure;
 
 # init can never add binder services
 neverallow init service_manager_type:service_manager { add find };
