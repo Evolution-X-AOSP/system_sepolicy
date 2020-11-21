@@ -30,6 +30,7 @@
     boringssl_self_test
     bq_config_prop
     cacheinfo_service
+    cgroup_desc_api_file
     charger_prop
     cold_boot_done_prop
     credstore
@@ -113,6 +114,7 @@
     system_jvmti_agent_prop
     system_passwd_file
     system_unsolzygote_socket
+    task_profiles_api_file
     tethering_service
     theme_data_file
     traced_perf
