@@ -14,3 +14,5 @@ app_domain(untrusted_app)
 untrusted_app_domain(untrusted_app)
 net_domain(untrusted_app)
 bluetooth_domain(untrusted_app)
+
+allow untrusted_app theme_prop:file { read };
