@@ -5,3 +5,4 @@
 ###
 
 type system_app, domain;
+allow system_app theme_prop:file { read write };
