@@ -90,6 +90,7 @@ type clipboard_service, app_api_service, ephemeral_app_api_service, system_serve
 type cloudsearch_service, app_api_service, system_server_service, service_manager_type;
 type contexthub_service, app_api_service,  system_server_service, service_manager_type;
 type crossprofileapps_service, app_api_service, system_server_service, service_manager_type;
+type cross_device_service, app_api_service, system_server_service, service_manager_type;
 type IProxyService_service, app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
 type companion_device_service, app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
 type connectivity_native_service, app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
